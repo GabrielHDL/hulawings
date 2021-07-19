@@ -1,6 +1,6 @@
  <div class="hero-donde">
-     <h1 class="ribbon-r-donde">Aquí Puedes</h1>
-     <h1 class="ribbon-h-r-donde">Encontrarnos</h1>
+     <h1 class="ribbon-r">Aquí Puedes</h1>
+     <h1 class="ribbon-h-r">Encontrarnos</h1>
      <div class="text-donde">
         <h2>Tssss...</h2>
         <h2>Oye!</h2>
