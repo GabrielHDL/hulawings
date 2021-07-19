@@ -28,6 +28,7 @@
     <meta name="twitter:site" content="@HulaWings">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:creator" content="@HulaWings">
+    <meta name="description" content="<?php echo $description ?>">
     <link rel="stylesheet" href="css/styles.min.css" />
     <link rel="stylesheet" href="css/queries.min.css" />
     <link rel="shortcut icon" href="assets/favicon.png" />
