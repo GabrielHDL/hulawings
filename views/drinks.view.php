@@ -10,7 +10,7 @@
         que necesitas uno Arrgh!
       </p>
       <div class="button-hero">
-        <a href="#"><button class="drinks-btn">Ver Más</button></a>
+        <a href="#drinks-shop"><button class="drinks-btn">Ver Más</button></a>
       </div>
     </div>
     <div class="lottie-down">
