@@ -19,7 +19,7 @@
     <meta name="twitter:site" content="@HulaWings">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:creator" content="@HulaWings">
-    <link rel="stylesheet" href="css/styles.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/queries.min.css" />
     <link rel="shortcut icon" href="assets/favicon.png" />
     <script src="https://kit.fontawesome.com/bf31e6c9ae.js" crossorigin="anonymous"></script>
@@ -38,7 +38,7 @@
               <li class="menu-i"><a href="/">Inicio</a></li>
               <li class="menu-i"><a href="drinks">Drinks</a></li>
               <li class="menu-i"><a href="bajon">Bajón</a></li>
-              <li class="menu-i"><a href="#">¿Dónde?</a></li>
+              <li class="menu-i"><a href="donde">¿Dónde?</a></li>
             </ul>
           <div class="phone-menu">
             <svg class="burger" xmlns="http://www.w3.org/2000/svg" width="33.712" height="19.618" viewBox="0 0 33.712 19.618">

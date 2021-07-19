@@ -516,7 +516,7 @@ nav {
 .hero-drinks {
     height: 100vh;
     width: 100%;
-    background: #bd005e;
+    background: #F7E733;
     background-image: url(../bebidas/mojito.png);
     background-position: center;
     background-size: contain;
@@ -529,7 +529,7 @@ nav {
     position: relative;
     z-index: 2;
     flex-wrap: wrap;
-    box-shadow: 0 0 20px #bd005ec2;
+    box-shadow: 0 0 20px #F7E733;
 }
 
 .lottie-down {
@@ -548,14 +548,14 @@ nav {
 
 .text-drinks h2 {
     font-family: Poppins, sans-serif;
-    color: rgb(14, 255, 106);
+    color: #EC0868;
     font-size: 5vw;
 }
 
 .text-drinks p {
     font-family: Raleway, sans-serif;
     font-weight: 600;
-    color: #FFF;
+    color: #2B2D42;
     font-size: 200%;
 }
 
@@ -583,6 +583,7 @@ nav {
     text-align: justify;
     color: #FFF;
     font-size: 130%;
+    text-shadow: 0 0 10px #000;
 }
 
 .button-hero {
