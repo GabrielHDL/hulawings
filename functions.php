@@ -11,7 +11,7 @@ class Conexion{
             $opciones);
             return $conexion;
         }catch (Exception $e){
-            die("El error de Conexi��n es:". $e->getMessage());
+            die("El error de Conexión es:". $e->getMessage());
         }
     }
 }
