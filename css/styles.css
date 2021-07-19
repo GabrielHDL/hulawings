@@ -386,6 +386,22 @@ nav {
     transform: rotate3d(0,1,0,180deg);
 }
 
+.ribbon-r-donde {
+    font-family: Raleway, sans-serif;
+    color: rgba(0, 0, 0, 0.575);
+    font-size: 5vw;
+    text-transform: uppercase;
+    text-align: center;
+    text-orientation: sideways-right;
+    position: absolute;
+    z-index: 0;
+    right: 0;
+    top: 0;
+    height: 100%;
+    writing-mode: vertical-rl;
+    transform: rotate3d(0,1,0,180deg);
+}
+
 .ribbon-h {
     font-family: Raleway, sans-serif;
     color: rgba(255, 255, 255, 0.575);
@@ -401,6 +417,19 @@ nav {
 .ribbon-h-r {
     font-family: Raleway, sans-serif;
     color: rgba(255, 255, 255, 0.575);
+    font-size: 5vw;
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+    right: 1em;
+    transform: rotate3d(0,1,0,180deg);
+}
+
+.ribbon-h-r-donde {
+    font-family: Raleway, sans-serif;
+    color: rgba(0, 0, 0, 0.575);
     font-size: 5vw;
     text-transform: uppercase;
     text-align: center;
@@ -516,7 +545,7 @@ nav {
 .hero-drinks {
     height: 100vh;
     width: 100%;
-    background: #F7E733;
+    background: #EC0868;
     background-image: url(../bebidas/mojito.png);
     background-position: center;
     background-size: contain;
@@ -529,7 +558,7 @@ nav {
     position: relative;
     z-index: 2;
     flex-wrap: wrap;
-    box-shadow: 0 0 20px #F7E733;
+    box-shadow: 0 0 20px #EC0868;
 }
 
 .lottie-down {
@@ -548,14 +577,14 @@ nav {
 
 .text-drinks h2 {
     font-family: Poppins, sans-serif;
-    color: #EC0868;
+    color: #81f733;
     font-size: 5vw;
 }
 
 .text-drinks p {
     font-family: Raleway, sans-serif;
     font-weight: 600;
-    color: #2B2D42;
+    color: #FFF;
     font-size: 200%;
 }
 
@@ -720,7 +749,7 @@ nav {
 /* Dónde */
 
 .hero-donde {
-    background: #EC0868;
+    background: #F7E733;
     height: 100vh;
     width: 100%;
     position: relative;
@@ -730,7 +759,7 @@ nav {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    box-shadow: 0 0 15px #EC0868;
+    box-shadow: 0 0 15px #F7E733;
 }
 
 .text-donde {
@@ -746,7 +775,7 @@ nav {
     font-family: Poppins, sans-serif;
     font-size: 8vw;
     font-weight: 700;
-    color: #F7E733;
+    color: #EC0868;
 }
 
 .lottie-location {
