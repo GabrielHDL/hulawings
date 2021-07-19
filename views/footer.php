@@ -14,7 +14,7 @@
                 <div class="redes-footer">
                     <h4>Siguenos en<br />nuestras redes:</h4>
                     <div class="social-icons">
-                        <a id="fb" href="https://www.facebook.com/HulabarOF/"><i class="fab fa-facebook"></i></a>
+                        <a id="fb" href="https://www.facebook.com/HulaWings/"><i class="fab fa-facebook"></i></a>
                         <a id="ig" href="https://instagram.com/hula_bar_/"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
