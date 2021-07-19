@@ -1,0 +1,12 @@
+<?php
+
+$title = "¿Dónde? | Hula Wings&reg;";
+$description = "Aquí puedes encontrarnos 😉";
+$og_name = "Hula Wings&reg;";
+$og_img = "hula_donde_og_img.jpg";
+
+require 'views/header.php';
+require 'views/donde.view.php';
+require 'views/footer.php';
+
+?>

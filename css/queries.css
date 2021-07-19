@@ -1,0 +1,242 @@
+@media only screen and (max-width: 1024px) {
+    .card-body-drinks {
+        width: 21%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    .footer {
+        min-height: 61vh;
+    }
+
+    .card-body-drinks {
+        flex-direction: row;
+        width: 90%;
+        height: 200px;
+        justify-content: space-between;
+        margin: 10px;
+    }
+
+    .card-drinks-btn {
+        display: none;
+    }
+
+    #btn-mov-link {
+        display: none;
+    }
+
+    .card-body h3 {
+        font-size: 100%;
+    }
+
+    .contenedor-texto p {
+        font-size: 100%;
+    }
+
+    .ribbon {
+        font-size: 9vw;
+    }
+
+    .ribbon-r {
+        font-size: 9vw;
+    }
+
+    .ribbon-h {
+        font-size: 9vw;
+        right: 0;
+        left: 0;
+    }
+
+    .ribbon-h-r {
+        font-size: 9vw;
+        right: 0;
+        left: 0;
+    }
+
+    .hero {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        background-position: top;
+    }
+    
+    #inicio {
+        background-image: url(../img/mov_sat_hero.jpg);
+    }
+    
+    .contenedor-texto h3 {
+        font-size: 7.5vw;
+    }
+
+    .text-hero {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .text-hero h2 {
+        text-align: center;
+    }
+
+    .hero-card {
+        width: 100%;
+    }
+
+    .hero-icon {
+        width: 100%;
+    }
+
+    .card-body {
+        width: 64%;
+        height: 57%;
+    }
+
+    .menu-desk {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: #000;
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        line-height: 3em;
+        font-size: 8vw;
+        transition: all 0.5s ease;
+        transform: translateX(-100%);
+    }
+    
+    .menu-desk .menu-i a {
+        padding: 0;
+    }
+
+    .menu-desk.active {
+        transform: translateX(0);
+    }
+
+    .menu-desk .menu-i a{
+        color: #FFF;
+    }
+
+    .phone-menu {
+        display: flex;
+    }
+
+    .burger {
+        stroke: #000;
+        fill: none;
+        stroke-linecap: round;
+        stroke-width: 2px;
+    }
+
+    .burger.active {
+        stroke: #FFF;
+    }
+
+    .phone-menu.active {
+        position: fixed;
+        top: 32%;
+        right: 5%;
+        z-index: 99999999999;
+
+    }
+
+    .direction {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .direction-reverse {
+        flex-direction: column-reverse;
+    }
+
+    .imagen img {
+        width: 63%;
+        height: auto;
+    }
+    
+    .contenedor-texto {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contenedor-texto p {
+        text-align: center;
+    }
+
+    .contenedor-texto h3 {
+        text-align: center;
+    }
+    
+    .res {
+        display: inline-block;
+    }
+
+    .res-desk {
+        display: none;
+    }
+
+    .direction-footer {
+        flex-direction: column;
+    }
+    
+    .logo-container-footer {
+        margin: 20px;
+    }
+
+    .logo-container-footer img {
+        width: 99%;
+        height: 40%;
+    }
+
+    .links-footer a {
+        font-size: 75%;
+    }
+
+    .redes-footer {
+        margin: 34px;
+    }
+
+    .redes-footer h4 {
+        font-size: 99%;
+    }
+
+    .copy {
+        margin: 0;
+    }
+
+    .body-shop {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        position: relative;
+        z-index: 1;
+    }
+
+    .hero-drinks {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        padding: 8%;
+    }
+
+    .text-drinks {
+        width: 100%;
+    }
+
+    .drinks-story {
+        width: 100%;
+    }
+
+    .drinks-story p {
+        text-align: center;
+    }
+
+    .button-hero {
+        justify-content: center;
+    }
+
+    .text-drinks h2 {
+        font-size: 4.5em;
+    }
+}

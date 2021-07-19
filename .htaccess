@@ -1,0 +1,23 @@
+RewriteEngine On 
+RewriteBase /
+
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://hulawings.com/$1 [R=301,L]
+
+AddType application/x-httpd-php .asp .py .pl
+
+RewriteRule "/\.|^\.(?!well-known/)" - [F]
+
+## Redirects example.com/cool-page.php to example.com/cool-page
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php
+
+
+# Rewrite www.example.com -> example.com -- used with SEO Strict URLs plugin
+RewriteCond %{HTTP_HOST} .
+RewriteCond %{HTTP_HOST} ^www.(.*)$ [NC]
+RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+
+# Redirects the index.php file to the root domain
+RewriteRule ^index.php$ https://hulawings.com/ [R=301,L]
