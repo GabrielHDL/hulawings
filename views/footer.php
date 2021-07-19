@@ -19,7 +19,7 @@
                     </div>
                 </div>
                 <div class="copy">
-                    <p>Hula Wings<sup>&reg;</sup> &copy;<?php $time = time(); echo date("Y", $time); ?> | Todos los derechos reservados | Made by <a href="https://houdle.com">Houdle<sup>&reg;</sup></a> with <i class="fas fa-heart heart"></i>.</p>
+                    <p>HULA Wings<sup>&reg;</sup> &copy;<?php $time = time(); echo date("Y", $time); ?> | Todos los derechos reservados | Made by <a href="https://houdle.com">Houdle<sup>&reg;</sup></a> with <i class="fas fa-heart heart"></i>.</p>
                 </div>
             </div>
         </footer>

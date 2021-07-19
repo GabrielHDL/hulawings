@@ -19,7 +19,7 @@
     <meta property="og:url" content="https://hulawings.com/" />
     <meta property="og:site_name" content="<?php echo $og_name ?>" />
     <meta property="og:image" content="https://hulawings.com/miscelaneous/og/img/<?php echo $og_img ?>" />
-    <meta propety="og:image:alt" content="Hula Wings Open Graph Image" />
+    <meta propety="og:image:alt" content="HULA Wings Open Graph Image" />
     <meta property="og:locale" content="es_MX">
     <meta property="fb:app_id" content="214059593948015">
     <meta name="twitter:title" content="<?php echo $title ?>">

@@ -1,8 +1,8 @@
 <?php
 
-$title = "Drinks | Hula Wings&reg;";
-$description = "Los mejores tragos los encuentras en Hula Wings 🍹";
-$og_name = "Hula Wings&reg;";
+$title = "Drinks | HULA Wings&reg;";
+$description = "Los mejores tragos los encuentras en HULA Wings 🍹";
+$og_name = "HULA Wings&reg;";
 $og_img = "hula_drinks_og_img.jpg";
 
 include_once 'functions.php';

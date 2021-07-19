@@ -1,8 +1,8 @@
 <?php
 
-$title = "Bajón | Hula Wings&reg;";
+$title = "Bajón | HULA Wings&reg;";
 $description = "¿Segur@ que has probado las mejores alitas? 🍗";
-$og_name = "Hula Wings&reg;";
+$og_name = "HULA Wings&reg;";
 $og_img = "hula_bajon_og_img.jpg";
 
 include_once 'functions.php';

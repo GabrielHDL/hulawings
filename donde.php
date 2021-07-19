@@ -1,8 +1,8 @@
 <?php
 
-$title = "¿Dónde? | Hula Wings&reg;";
+$title = "¿Dónde? | HULA Wings&reg;";
 $description = "Aquí puedes encontrarnos 😉";
-$og_name = "Hula Wings&reg;";
+$og_name = "HULA Wings&reg;";
 $og_img = "hula_donde_og_img.jpg";
 
 require 'views/header.php';
