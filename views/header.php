@@ -13,6 +13,7 @@
       })(window,document,'script','dataLayer','GTM-MW6SMNN');
     </script>
     <!-- End Google Tag Manager -->
+    <link rel="canonical" href="<?php echo $canonical ?>" />
     <meta property="og:title" content="<?php echo $title ?>" />
     <meta property="og:type" content="website" />
     <meta property="og:description" content="<?php echo $description ?>" />

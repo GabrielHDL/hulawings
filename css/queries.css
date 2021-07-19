@@ -57,11 +57,11 @@
     .hero {
         flex-wrap: nowrap;
         flex-direction: column;
-        background-position: top;
+        background-position: center;
     }
     
     #inicio {
-        background-image: url(../img/mov_sat_hero.jpg);
+        background-image: url(../img/mov_jueves.jpg);
     }
     
     .contenedor-texto h3 {

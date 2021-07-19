@@ -4,7 +4,6 @@
     </div>
     <div id="inicio" class="hero">
       <div class="text-hero">
-        <h2>Sabado de<br />3X100 🍹</h2>
       </div>
       <div class="hero-card">
         <div class="card-body">

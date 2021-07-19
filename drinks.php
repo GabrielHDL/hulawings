@@ -4,6 +4,7 @@ $title = "Drinks | HULA Wings&reg;";
 $description = "Los mejores tragos los encuentras en HULA Wings 🍹";
 $og_name = "HULA Wings&reg;";
 $og_img = "hula_drinks_og_img.jpg";
+$canonical = "https://hulawings.com/drinks";
 
 include_once 'functions.php';
 
