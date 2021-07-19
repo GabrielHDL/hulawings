@@ -239,4 +239,38 @@
     .text-drinks h2 {
         font-size: 4.5em;
     }
+    .hero-donde {
+        flex-direction: column;
+    }
+    .text-donde {
+        align-items: center;
+    }
+
+    .text-donde h2 {
+        font-size: 17vw;
+    }
+
+    #location {
+        width: auto;
+        height: 100%;
+        margin-bottom: 0;
+    }
+    .us-res {
+        flex-direction: column;
+    }
+
+    .find-us-text {
+        text-align: center;
+        padding: 10px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .find-us-text h3 {
+        font-size: 6vw;
+    }
+
+    .find-us-map {
+        width: 100%;
+    }
 }

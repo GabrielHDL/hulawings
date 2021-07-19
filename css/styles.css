@@ -716,3 +716,90 @@ nav {
     width: auto;
     height: 100%;
 }
+
+/* Dónde */
+
+.hero-donde {
+    background: #EC0868;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 0 15px rgba(255,255,255,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 0 15px #EC0868;
+}
+
+.text-donde {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.text-donde h2 {
+    font-family: Poppins, sans-serif;
+    font-size: 8vw;
+    font-weight: 700;
+    color: #F7E733;
+}
+
+.lottie-location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+#location {
+    width: 85%;
+    height: auto;
+    margin-bottom: 12%;
+}
+
+.find-us {
+   width: 100%;
+   height: 100vh;
+   background: #FFF;
+   position: relative;
+   z-index: 1;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 30px;
+   box-shadow: 0 0 15px #EC0868;
+}
+
+.find-us-text {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.find-us-text h3 {
+    font-family: Poppins, sans-serif;
+    font-size: 250%;
+}
+
+.find-us-text p {
+   font-family: Raleway, sans-serif;
+   font-size: 100%;
+   font-weight: 500;
+}
+
+.find-us-map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    height: 100%;
+}

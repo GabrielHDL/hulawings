@@ -19,7 +19,7 @@
     <meta name="twitter:site" content="@HulaWings">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:creator" content="@HulaWings">
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/styles.min.css" />
     <link rel="stylesheet" href="css/queries.min.css" />
     <link rel="shortcut icon" href="assets/favicon.png" />
     <script src="https://kit.fontawesome.com/bf31e6c9ae.js" crossorigin="anonymous"></script>
