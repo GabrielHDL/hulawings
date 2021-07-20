@@ -14,7 +14,6 @@
       </div>
     </div>
     <div class="lottie-down">
-      <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
       <lottie-player id="scroll_down" src="assets/scroll_down.json" background="transparent" speed="1" loop autoplay></lottie-player>
     </div>
   </section>

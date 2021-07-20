@@ -6,7 +6,6 @@
            <h2>Oye!</h2>
         </div>
         <div class="lottie-location">
-         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
          <lottie-player id="location" src="assets/location.json" background="transparent" speed="1" loop autoplay></lottie-player>
        </div>
     </div>

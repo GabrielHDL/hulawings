@@ -468,6 +468,11 @@ nav {
 
 .copy p i {
     color: #D7443E;
+    transition: all 400ms cubic-bezier(.47,1.64,.41,.8);
+}
+
+.copy p i:hover {
+    transform: translateY(-4px) scale(1.2);
 }
 
 .wrap {
