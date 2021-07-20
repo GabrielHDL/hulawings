@@ -70,3 +70,6 @@
         </div>
       </nav>
     </header>
+    <div class="sound-float">
+      <a onClick="togglePlay()"><lottie-player id="sound_equalizer" src="assets/sound.json" background="transparent" speed="1" loop autoplay></lottie-player></a>
+    </div>

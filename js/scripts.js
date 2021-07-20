@@ -98,3 +98,19 @@ const burger = document.querySelector('.burger');
           'DOMContentLoaded', anchorScrolls.init.bind(anchorScrolls)
         );
       })(window.document, window.history, window.location);
+
+// Audio
+
+var myAudio = document.getElementById("myAudio");
+var isPlaying = false;
+
+function togglePlay() {
+  isPlaying ? myAudio.pause() : myAudio.play();
+};
+
+myAudio.onplaying = function() {
+  isPlaying = true;
+};
+myAudio.onpause = function() {
+  isPlaying = false;
+};

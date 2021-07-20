@@ -1,7 +1,3 @@
-    <div class="sound-float">
-      <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-      <lottie-player id="sound_equalizer" src="assets/sound.json" background="transparent" speed="1" loop autoplay></lottie-player>
-    </div>
     <div id="inicio" class="hero">
       <div class="text-hero">
       </div>
@@ -60,18 +56,3 @@
         </div>
       </div>
     </section>
-    <script>
-      const playSound = function() {
-      let element = document.createElement('div');
-      element.setAttribute('style', 'display: none');
-      element.innerHTML = `
-        <audio autoplay loop>
-          <source src="miscelaneous/audio/liqwyd-birthday.mp3" type="audio/mpeg">
-        </audio>
-      `;
-      document.body.appendChild(element);
-      document.removeEventListener('click', playSound);
-      }
-
-      document.addEventListener('click', playSound);
-    </script>
