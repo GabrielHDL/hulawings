@@ -23,7 +23,7 @@
                 </div>
             </div>
         </footer>
-        <audio id="myAudio" src="miscelaneous/audio/liqwyd-birthday.mp3" preload="auto"></audio>
+        <audio loop id="myAudio" src="miscelaneous/audio/liqwyd-birthday.mp3" preload="auto"></audio>
     <script src="js/scripts.min.js"></script>
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
