@@ -1,6 +1,8 @@
 <?php
 
-$title = "Bajón | HULA Wings&reg;";
+include_once 'admin/config_files/config.php';
+
+$title = "$bajon_title | $site_title";
 $description = "¿Segur@ que has probado las mejores alitas? 🍗";
 $og_name = "HULA Wings&reg;";
 $og_img = "hula_bajon_og_img.jpg";
@@ -8,7 +10,7 @@ $canonical = "https://hulawings.com/bajon";
 
 include_once 'functions.php';
 
-$objeto = new COnexion();
+$objeto = new Conexion();
 $conexion = $objeto->Conectar();
 
 $consulta = "SELECT * FROM bajon";

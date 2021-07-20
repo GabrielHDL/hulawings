@@ -1,6 +1,7 @@
 <?php
+include_once 'admin/config_files/config.php';
 
-$title = "¿Dónde? | HULA Wings&reg;";
+$title = "$donde_title | $site_title";
 $description = "Aquí puedes encontrarnos 😉";
 $og_name = "HULA Wings&reg;";
 $og_img = "hula_donde_og_img.jpg";

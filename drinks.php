@@ -1,6 +1,7 @@
 <?php
+include_once 'admin/config_files/config.php';
 
-$title = "Drinks | HULA Wings&reg;";
+$title = "$drinks_title | $site_title";
 $description = "Los mejores tragos los encuentras en HULA Wings 🍹";
 $og_name = "HULA Wings&reg;";
 $og_img = "hula_drinks_og_img.jpg";
@@ -8,7 +9,7 @@ $canonical = "https://hulawings.com/drinks";
 
 include_once 'functions.php';
 
-$objeto = new COnexion();
+$objeto = new Conexion();
 $conexion = $objeto->Conectar();
 
 $consulta = "SELECT * FROM drinks";
