@@ -1,9 +1,16 @@
 <?php session_start();
 
 if (isset($_SESSION['usuario'])) {
-    header('Location: contenido.php');
+    header('Location: /admin/contenido');
 } else {
-    header('Location: ../login.php');
+    header('Location: /admin/login');
 }
 
 ?>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta name="robots" content="noindex">
+</head>
+</html>

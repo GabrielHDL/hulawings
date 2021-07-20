@@ -1,7 +1,7 @@
 <?php session_start();
 
 if (isset($_SESSION['usuario'])) {
-    header('Location: index.php');
+    header('Location: /admin');
 }
 
 $errores = '';
@@ -23,7 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $resultado = $statement->fetch();
     if ($resultado !== false) {
         $_SESSION['usuario'] = $usuario;
-        header('Location: index.php');
+        header('Location: /admin');
     } else {
         $errores .= '<li>Datos incorrectos</li>';
     }
