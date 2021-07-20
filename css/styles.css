@@ -743,7 +743,8 @@ nav {
     left: 10px;
     z-index: 99;
     height: 50px;
-    width: 50px;;
+    width: 50px;
+    transform: translateZ(100px);
 }
 
 #sound_equalizer {
