@@ -85,3 +85,5 @@ RewriteRule ^index.php$ https://hulawings.com/ [R=301,L]
          AddOutputFilterByType DEFLATE text/plain
          AddOutputFilterByType DEFLATE text/xml
 </IfModule>
+
+ErrorDocument 404 /404
