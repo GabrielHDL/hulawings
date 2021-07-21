@@ -56,6 +56,10 @@
 
 @media only screen and (max-width: 768px) {
 
+    .contenedor-drinks {
+        height: 100vh;
+    }
+
     .footer {
         min-height: 61vh;
     }
@@ -202,8 +206,8 @@
     }
 
     .imagen img {
-        width: 63%;
-        height: auto;
+        width: auto;
+        height: 35vh;
     }
     
     .contenedor-texto {

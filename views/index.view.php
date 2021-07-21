@@ -47,7 +47,7 @@
       <div class="mw direction">
         <a href="#"><button class="drinks-btn res">Ver Más</button></a>
         <div class="imagen">
-          <img src="bebidas/flame_shots.svg" alt="Shots" title="Shots" />
+          <img src="bebidas/flame_shots.png" alt="Shots" title="Shots" />
         </div>
         <div class="contenedor-texto">
           <h3>Shots</h3>
