@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+@font-face {
+    font-family: 'beer';
+    src: url('../miscelaneous/fonts/beer-webfont.woff2') format('woff2'),
+         url('../miscelaneous/fonts/beer-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -837,4 +846,56 @@ nav {
     align-items: center;
     width:50%;
     height: 100%;
+}
+
+.bck404 h1 {
+    font-family: beer, sans-serif;
+    color: #FFF;
+    text-shadow: 10px 10px 0 #000;
+    line-height: 1em;
+    font-size: 8em;
+    position: relative;
+    top: 0;
+    left: 150px;
+}
+
+.bck404 span {
+    position: relative;
+    z-index: 1;
+}
+
+.bck404 {
+    background: url('../img/404_bck.jpg');
+    height: 100vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: .5vw;
+    text-align: left;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.cerveza404 {
+    position: absolute;
+    height: auto;
+    width: 700px;
+    top: 100px;
+    left: 22%;
+}
+
+#btn-404 {
+    position: relative;
+    top: 150px;
+
+}
+
+#logo-404 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 20%;
+    width: auto;
 }
