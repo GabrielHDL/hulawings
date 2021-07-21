@@ -28,9 +28,9 @@
             <h1><?php echo $drink['nombre'] ?></h1>
             <span><?php echo $drink['desc_corta'] ?></span>
           </div>
-          <a href="#"
+          <a href="drink?id=<?php echo $drink['id']; ?>"
             ><img src="bebidas/<?php echo $drink['img'] ?>" alt="<?php echo $drink['nombre'] ?>"/></a>
-          <a id="btn-mov-link" href="#"><button class="card-drinks-btn">Ver Más</button></a>
+          <a id="btn-mov-link" href="drink?id=<?php echo $drink['id']; ?>"><button class="card-drinks-btn">Ver Más</button></a>
         </div>
         <?php
               }

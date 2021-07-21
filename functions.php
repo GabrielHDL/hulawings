@@ -15,4 +15,13 @@ class Conexion{
     }
 }
 
+function conexion2($tabla, $usuario, $pass) {
+    try {
+        $conexion2 = new PDO("mysql:host=localhost;dbname=$tabla", $usuario, $pass);
+        return $conexion2;
+    } catch (PDOException $e) {
+        return false;
+    }
+}
+
 ?>

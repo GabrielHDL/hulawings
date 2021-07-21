@@ -1,0 +1,276 @@
+[21-Jul-2021 13:04:35 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 13:04:35 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 13:04:35 America/Mexico_City] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 30
+[21-Jul-2021 13:04:35 America/Mexico_City] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 36
+[21-Jul-2021 13:04:35 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function fetch_row() on bool in /home2/hulabar/public_html/votaciones.php:39
+Stack trace:
+#0 /home2/hulabar/public_html/votaciones.php(50): Votacion->obtener_la_puntuacion_de(false)
+#1 /home2/hulabar/public_html/views/drink.view.php(26): Votacion->mostrar_estrellitas_para('2')
+#2 /home2/hulabar/public_html/drink.php(32): require('/home2/hulabar/...')
+#3 {main}
+  thrown in /home2/hulabar/public_html/votaciones.php on line 39
+[21-Jul-2021 13:05:21 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 13:05:21 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 13:05:21 America/Mexico_City] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 30
+[21-Jul-2021 13:05:21 America/Mexico_City] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 36
+[21-Jul-2021 13:05:21 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function fetch_row() on bool in /home2/hulabar/public_html/votaciones.php:39
+Stack trace:
+#0 /home2/hulabar/public_html/votaciones.php(50): Votacion->obtener_la_puntuacion_de(false)
+#1 /home2/hulabar/public_html/views/drink.view.php(26): Votacion->mostrar_estrellitas_para('2')
+#2 /home2/hulabar/public_html/drink.php(32): require('/home2/hulabar/...')
+#3 {main}
+  thrown in /home2/hulabar/public_html/votaciones.php on line 39
+[21-Jul-2021 13:05:47 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 13:05:47 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 13:05:47 America/Mexico_City] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 30
+[21-Jul-2021 13:05:47 America/Mexico_City] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 36
+[21-Jul-2021 13:05:47 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function fetch_row() on bool in /home2/hulabar/public_html/votaciones.php:39
+Stack trace:
+#0 /home2/hulabar/public_html/votaciones.php(50): Votacion->obtener_la_puntuacion_de(false)
+#1 /home2/hulabar/public_html/views/drink.view.php(26): Votacion->mostrar_estrellitas_para('2')
+#2 /home2/hulabar/public_html/drink.php(32): require('/home2/hulabar/...')
+#3 {main}
+  thrown in /home2/hulabar/public_html/votaciones.php on line 39
+[21-Jul-2021 13:06:24 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 13:06:24 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 13:06:24 America/Mexico_City] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 30
+[21-Jul-2021 13:06:24 America/Mexico_City] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 36
+[21-Jul-2021 13:06:24 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function fetch_row() on bool in /home2/hulabar/public_html/votaciones.php:39
+Stack trace:
+#0 /home2/hulabar/public_html/votaciones.php(50): Votacion->obtener_la_puntuacion_de(false)
+#1 /home2/hulabar/public_html/views/drink.view.php(26): Votacion->mostrar_estrellitas_para('3')
+#2 /home2/hulabar/public_html/drink.php(32): require('/home2/hulabar/...')
+#3 {main}
+  thrown in /home2/hulabar/public_html/votaciones.php on line 39
+[21-Jul-2021 13:06:27 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 13:06:27 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 13:06:27 America/Mexico_City] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 30
+[21-Jul-2021 13:06:27 America/Mexico_City] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 36
+[21-Jul-2021 13:06:27 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function fetch_row() on bool in /home2/hulabar/public_html/votaciones.php:39
+Stack trace:
+#0 /home2/hulabar/public_html/votaciones.php(50): Votacion->obtener_la_puntuacion_de(false)
+#1 /home2/hulabar/public_html/views/drink.view.php(26): Votacion->mostrar_estrellitas_para('3')
+#2 /home2/hulabar/public_html/drink.php(32): require('/home2/hulabar/...')
+#3 {main}
+  thrown in /home2/hulabar/public_html/votaciones.php on line 39
+[21-Jul-2021 13:07:15 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 13:07:15 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 13:07:15 America/Mexico_City] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 30
+[21-Jul-2021 13:07:15 America/Mexico_City] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 36
+[21-Jul-2021 13:07:15 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function fetch_row() on bool in /home2/hulabar/public_html/votaciones.php:39
+Stack trace:
+#0 /home2/hulabar/public_html/votaciones.php(50): Votacion->obtener_la_puntuacion_de(false)
+#1 /home2/hulabar/public_html/views/drink.view.php(26): Votacion->mostrar_estrellitas_para('5')
+#2 /home2/hulabar/public_html/drink.php(32): require('/home2/hulabar/...')
+#3 {main}
+  thrown in /home2/hulabar/public_html/votaciones.php on line 39
+[21-Jul-2021 13:09:25 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 13:09:25 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 13:09:25 America/Mexico_City] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 30
+[21-Jul-2021 13:09:25 America/Mexico_City] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 36
+[21-Jul-2021 13:09:25 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function fetch_row() on bool in /home2/hulabar/public_html/votaciones.php:39
+Stack trace:
+#0 /home2/hulabar/public_html/votaciones.php(50): Votacion->obtener_la_puntuacion_de(false)
+#1 /home2/hulabar/public_html/views/drink.view.php(26): Votacion->mostrar_estrellitas_para('5')
+#2 /home2/hulabar/public_html/drink.php(32): require('/home2/hulabar/...')
+#3 {main}
+  thrown in /home2/hulabar/public_html/votaciones.php on line 39
+[21-Jul-2021 13:12:44 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 13:12:44 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 13:12:44 America/Mexico_City] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 30
+[21-Jul-2021 13:12:44 America/Mexico_City] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 36
+[21-Jul-2021 13:12:44 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function fetch_row() on bool in /home2/hulabar/public_html/votaciones.php:39
+Stack trace:
+#0 /home2/hulabar/public_html/votaciones.php(50): Votacion->obtener_la_puntuacion_de(false)
+#1 /home2/hulabar/public_html/views/drink.view.php(26): Votacion->mostrar_estrellitas_para('5')
+#2 /home2/hulabar/public_html/drink.php(32): require('/home2/hulabar/...')
+#3 {main}
+  thrown in /home2/hulabar/public_html/votaciones.php on line 39
+[21-Jul-2021 13:14:22 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 13:14:22 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 13:14:22 America/Mexico_City] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 30
+[21-Jul-2021 13:14:22 America/Mexico_City] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 36
+[21-Jul-2021 13:14:22 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function fetch_row() on bool in /home2/hulabar/public_html/votaciones.php:39
+Stack trace:
+#0 /home2/hulabar/public_html/votaciones.php(50): Votacion->obtener_la_puntuacion_de(false)
+#1 /home2/hulabar/public_html/views/drink.view.php(26): Votacion->mostrar_estrellitas_para('2')
+#2 /home2/hulabar/public_html/drink.php(32): require('/home2/hulabar/...')
+#3 {main}
+  thrown in /home2/hulabar/public_html/votaciones.php on line 39
+[21-Jul-2021 13:14:24 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 13:14:24 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 13:14:24 America/Mexico_City] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 30
+[21-Jul-2021 13:14:24 America/Mexico_City] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 36
+[21-Jul-2021 13:14:24 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function fetch_row() on bool in /home2/hulabar/public_html/votaciones.php:39
+Stack trace:
+#0 /home2/hulabar/public_html/votaciones.php(50): Votacion->obtener_la_puntuacion_de(false)
+#1 /home2/hulabar/public_html/views/drink.view.php(26): Votacion->mostrar_estrellitas_para('2')
+#2 /home2/hulabar/public_html/drink.php(32): require('/home2/hulabar/...')
+#3 {main}
+  thrown in /home2/hulabar/public_html/votaciones.php on line 39
+[21-Jul-2021 13:14:27 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 13:14:27 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 13:14:27 America/Mexico_City] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 30
+[21-Jul-2021 13:14:27 America/Mexico_City] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 36
+[21-Jul-2021 13:14:27 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function fetch_row() on bool in /home2/hulabar/public_html/votaciones.php:39
+Stack trace:
+#0 /home2/hulabar/public_html/votaciones.php(50): Votacion->obtener_la_puntuacion_de(false)
+#1 /home2/hulabar/public_html/views/drink.view.php(26): Votacion->mostrar_estrellitas_para('2')
+#2 /home2/hulabar/public_html/drink.php(32): require('/home2/hulabar/...')
+#3 {main}
+  thrown in /home2/hulabar/public_html/votaciones.php on line 39
+[21-Jul-2021 13:15:13 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 13:15:13 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 13:15:13 America/Mexico_City] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 30
+[21-Jul-2021 13:15:13 America/Mexico_City] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 36
+[21-Jul-2021 13:15:13 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function fetch_row() on bool in /home2/hulabar/public_html/votaciones.php:39
+Stack trace:
+#0 /home2/hulabar/public_html/votaciones.php(50): Votacion->obtener_la_puntuacion_de(false)
+#1 /home2/hulabar/public_html/views/drink.view.php(26): Votacion->mostrar_estrellitas_para('2')
+#2 /home2/hulabar/public_html/drink.php(32): require('/home2/hulabar/...')
+#3 {main}
+  thrown in /home2/hulabar/public_html/votaciones.php on line 39
+[21-Jul-2021 13:16:46 America/Mexico_City] PHP Warning:  require(views/drink.view.php): failed to open stream: No such file or directory in /home2/hulabar/public_html/drink.php on line 32
+[21-Jul-2021 13:16:46 America/Mexico_City] PHP Warning:  require(views/drink.view.php): failed to open stream: No such file or directory in /home2/hulabar/public_html/drink.php on line 32
+[21-Jul-2021 13:16:46 America/Mexico_City] PHP Fatal error:  require(): Failed opening required 'views/drink.view.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/hulabar/public_html/drink.php on line 32
+[21-Jul-2021 13:19:03 America/Mexico_City] PHP Warning:  require(views/drink.view.php): failed to open stream: No such file or directory in /home2/hulabar/public_html/drink.php on line 32
+[21-Jul-2021 13:19:03 America/Mexico_City] PHP Warning:  require(views/drink.view.php): failed to open stream: No such file or directory in /home2/hulabar/public_html/drink.php on line 32
+[21-Jul-2021 13:19:03 America/Mexico_City] PHP Fatal error:  require(): Failed opening required 'views/drink.view.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/hulabar/public_html/drink.php on line 32
+[21-Jul-2021 13:19:08 America/Mexico_City] PHP Warning:  require(views/drink.view.php): failed to open stream: No such file or directory in /home2/hulabar/public_html/drink.php on line 32
+[21-Jul-2021 13:19:08 America/Mexico_City] PHP Warning:  require(views/drink.view.php): failed to open stream: No such file or directory in /home2/hulabar/public_html/drink.php on line 32
+[21-Jul-2021 13:19:08 America/Mexico_City] PHP Fatal error:  require(): Failed opening required 'views/drink.view.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/hulabar/public_html/drink.php on line 32
+[21-Jul-2021 13:20:02 America/Mexico_City] PHP Warning:  require(views/drink.view.php): failed to open stream: No such file or directory in /home2/hulabar/public_html/drink.php on line 32
+[21-Jul-2021 13:20:02 America/Mexico_City] PHP Warning:  require(views/drink.view.php): failed to open stream: No such file or directory in /home2/hulabar/public_html/drink.php on line 32
+[21-Jul-2021 13:20:02 America/Mexico_City] PHP Fatal error:  require(): Failed opening required 'views/drink.view.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/hulabar/public_html/drink.php on line 32
+[21-Jul-2021 13:20:15 America/Mexico_City] PHP Warning:  require(views/drink.view.php): failed to open stream: No such file or directory in /home2/hulabar/public_html/drink.php on line 32
+[21-Jul-2021 13:20:15 America/Mexico_City] PHP Warning:  require(views/drink.view.php): failed to open stream: No such file or directory in /home2/hulabar/public_html/drink.php on line 32
+[21-Jul-2021 13:20:15 America/Mexico_City] PHP Fatal error:  require(): Failed opening required 'views/drink.view.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/hulabar/public_html/drink.php on line 32
+[21-Jul-2021 13:21:07 America/Mexico_City] PHP Warning:  require(views/drink.view.php): failed to open stream: No such file or directory in /home2/hulabar/public_html/drink.php on line 32
+[21-Jul-2021 13:21:07 America/Mexico_City] PHP Warning:  require(views/drink.view.php): failed to open stream: No such file or directory in /home2/hulabar/public_html/drink.php on line 32
+[21-Jul-2021 13:21:07 America/Mexico_City] PHP Fatal error:  require(): Failed opening required 'views/drink.view.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/hulabar/public_html/drink.php on line 32
+[21-Jul-2021 13:22:49 America/Mexico_City] PHP Warning:  require(views/drink.view.php): failed to open stream: No such file or directory in /home2/hulabar/public_html/drink.php on line 40
+[21-Jul-2021 13:22:49 America/Mexico_City] PHP Warning:  require(views/drink.view.php): failed to open stream: No such file or directory in /home2/hulabar/public_html/drink.php on line 40
+[21-Jul-2021 13:22:49 America/Mexico_City] PHP Fatal error:  require(): Failed opening required 'views/drink.view.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/hulabar/public_html/drink.php on line 40
+[21-Jul-2021 13:23:07 America/Mexico_City] PHP Warning:  require(views/drink.view.php): failed to open stream: No such file or directory in /home2/hulabar/public_html/drink.php on line 32
+[21-Jul-2021 13:23:07 America/Mexico_City] PHP Warning:  require(views/drink.view.php): failed to open stream: No such file or directory in /home2/hulabar/public_html/drink.php on line 32
+[21-Jul-2021 13:23:07 America/Mexico_City] PHP Fatal error:  require(): Failed opening required 'views/drink.view.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/hulabar/public_html/drink.php on line 32
+[21-Jul-2021 13:23:36 America/Mexico_City] PHP Warning:  require(views/drink.view.php): failed to open stream: No such file or directory in /home2/hulabar/public_html/drink.php on line 32
+[21-Jul-2021 13:23:36 America/Mexico_City] PHP Warning:  require(views/drink.view.php): failed to open stream: No such file or directory in /home2/hulabar/public_html/drink.php on line 32
+[21-Jul-2021 13:23:36 America/Mexico_City] PHP Fatal error:  require(): Failed opening required 'views/drink.view.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/hulabar/public_html/drink.php on line 32
+[21-Jul-2021 13:25:00 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 13:25:00 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 13:25:00 America/Mexico_City] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 30
+[21-Jul-2021 13:25:00 America/Mexico_City] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 36
+[21-Jul-2021 13:25:00 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function fetch_row() on bool in /home2/hulabar/public_html/votaciones.php:39
+Stack trace:
+#0 /home2/hulabar/public_html/votaciones.php(50): Votacion->obtener_la_puntuacion_de(false)
+#1 /home2/hulabar/public_html/views/drink.view.php(24): Votacion->mostrar_estrellitas_para('2')
+#2 /home2/hulabar/public_html/drink.php(32): require('/home2/hulabar/...')
+#3 {main}
+  thrown in /home2/hulabar/public_html/votaciones.php on line 39
+[21-Jul-2021 13:26:29 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 13:26:29 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 13:26:29 America/Mexico_City] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 30
+[21-Jul-2021 13:26:29 America/Mexico_City] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 36
+[21-Jul-2021 13:26:29 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function fetch_row() on bool in /home2/hulabar/public_html/votaciones.php:39
+Stack trace:
+#0 /home2/hulabar/public_html/votaciones.php(50): Votacion->obtener_la_puntuacion_de(false)
+#1 /home2/hulabar/public_html/views/drink.view.php(9): Votacion->mostrar_estrellitas_para('2')
+#2 /home2/hulabar/public_html/drink.php(32): require('/home2/hulabar/...')
+#3 {main}
+  thrown in /home2/hulabar/public_html/votaciones.php on line 39
+[21-Jul-2021 13:27:30 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 13:27:30 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 13:27:30 America/Mexico_City] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 30
+[21-Jul-2021 13:27:30 America/Mexico_City] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 36
+[21-Jul-2021 13:27:30 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function fetch_row() on bool in /home2/hulabar/public_html/votaciones.php:39
+Stack trace:
+#0 /home2/hulabar/public_html/votaciones.php(50): Votacion->obtener_la_puntuacion_de(false)
+#1 /home2/hulabar/public_html/views/drink.view.php(9): Votacion->mostrar_estrellitas_para('2')
+#2 /home2/hulabar/public_html/drink.php(32): require('/home2/hulabar/...')
+#3 {main}
+  thrown in /home2/hulabar/public_html/votaciones.php on line 39
+[21-Jul-2021 13:29:11 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 13:29:11 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 13:29:11 America/Mexico_City] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 30
+[21-Jul-2021 13:29:11 America/Mexico_City] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 36
+[21-Jul-2021 13:29:11 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function fetch_row() on bool in /home2/hulabar/public_html/votaciones.php:39
+Stack trace:
+#0 /home2/hulabar/public_html/votaciones.php(50): Votacion->obtener_la_puntuacion_de(false)
+#1 /home2/hulabar/public_html/views/drink.view.php(15): Votacion->mostrar_estrellitas_para('2')
+#2 /home2/hulabar/public_html/drink.php(32): require('/home2/hulabar/...')
+#3 {main}
+  thrown in /home2/hulabar/public_html/votaciones.php on line 39
+[21-Jul-2021 13:29:37 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 13:29:37 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 13:29:37 America/Mexico_City] PHP Warning:  mysqli::real_escape_string(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 30
+[21-Jul-2021 13:29:37 America/Mexico_City] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 36
+[21-Jul-2021 13:29:37 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to a member function fetch_row() on bool in /home2/hulabar/public_html/votaciones.php:39
+Stack trace:
+#0 /home2/hulabar/public_html/votaciones.php(50): Votacion->obtener_la_puntuacion_de(false)
+#1 /home2/hulabar/public_html/views/drink.view.php(15): Votacion->mostrar_estrellitas_para('2')
+#2 /home2/hulabar/public_html/drink.php(32): require('/home2/hulabar/...')
+#3 {main}
+  thrown in /home2/hulabar/public_html/votaciones.php on line 39
+[21-Jul-2021 13:30:02 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 13:30:02 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 13:32:10 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 13:32:10 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 13:32:33 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 13:32:33 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 13:33:00 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 13:33:00 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 13:33:05 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 13:33:05 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 13:39:59 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 13:39:59 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 13:41:43 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 13:41:43 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 13:43:25 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 13:43:25 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 13:43:53 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 13:43:53 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 13:44:17 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 13:44:17 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 13:46:51 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 13:46:51 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 13:46:55 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 13:46:55 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 13:49:32 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 13:49:32 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 13:50:01 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 13:50:01 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 13:50:04 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 13:50:04 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 13:50:07 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 13:50:07 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 13:51:28 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 13:51:28 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 13:53:34 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 13:53:34 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 13:56:55 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 13:56:55 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 13:57:05 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 13:57:05 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 13:58:25 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 13:58:25 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 13:58:27 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 13:58:27 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 13:59:44 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 13:59:44 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 13:59:46 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 13:59:46 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 14:01:54 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 14:01:54 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 14:02:10 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 14:02:10 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 14:03:34 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 14:03:34 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 14:04:12 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 14:04:12 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 14:05:28 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 14:05:28 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 14:05:33 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 14:05:33 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
+[21-Jul-2021 14:05:36 America/Mexico_City] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/hulabar/public_html/votaciones.php on line 17
+[21-Jul-2021 14:05:36 America/Mexico_City] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home2/hulabar/public_html/votaciones.php on line 18
