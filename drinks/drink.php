@@ -1,12 +1,12 @@
 <?php
 include './votaciones.php';
-include_once 'admin/config_files/config.php';
-include_once 'functions.php';
+include_once '../admin/config_files/config.php';
+include_once '../functions.php';
 
 $title = "$product_title | $site_title";
 $description = "Los mejores drinks en HULA Wings.";
 $og_name = "HULA Wings&reg;";
-$canonical = "https://hulawings.com/drink";
+$canonical = "https://hulawings.com/drinks/drink";
 
 $conexion2 = conexion2('hula_wings', 'root', '');
 if (!$conexion2) {
@@ -28,8 +28,8 @@ if (!$drink) {
     header('Location: /drinks');
 }
 
-require 'views/drink.header.php';
-require 'views/drink.view.php';
-require 'views/footer.php';
+require '../views/drink.header.php';
+require '../views/drink.view.php';
+require '../views/footer.php';
 
 ?>

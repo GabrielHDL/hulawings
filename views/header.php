@@ -30,9 +30,9 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:creator" content="@HulaWings">
     <meta name="description" content="<?php echo $description ?>">
-    <link rel="stylesheet" href="css/styles.min.css" />
-    <link rel="stylesheet" href="css/queries.min.css" />
-    <link rel="shortcut icon" href="assets/favicon.png" />
+    <link rel="stylesheet" href="https://hulawings.com/css/styles.min.css" />
+    <link rel="stylesheet" href="https://hulawings.com/css/queries.min.css" />
+    <link rel="shortcut icon" href="https://hulawings.com/assets/favicon.png" />
     <script src="https://kit.fontawesome.com/bf31e6c9ae.js" crossorigin="anonymous"></script>
     <title><?php echo $title ?></title>
   </head>
@@ -50,13 +50,13 @@
       <nav>
         <div class="mw">
           <div class="logo-container">
-            <a id="logo" href="/"><img class="logo" src="img/logo_hula.svg" alt="Logo Hula" title="Hula Wings" /></a>
+            <a id="logo" href="/"><img class="logo" src="https://hulawings.com/img/logo_hula.svg" alt="Logo Hula" title="Hula Wings" /></a>
           </div>
             <ul class="menu-desk">
-              <li class="menu-i"><a href="/">Inicio</a></li>
-              <li class="menu-i"><a href="drinks">Drinks</a></li>
-              <li class="menu-i"><a href="bajon">Bajón</a></li>
-              <li class="menu-i"><a href="donde">¿Dónde?</a></li>
+              <li class="menu-i"><a href="https://hulawings.com">Inicio</a></li>
+              <li class="menu-i"><a href="https://hulawings.com/drinks">Drinks</a></li>
+              <li class="menu-i"><a href="https://hulawings.com/bajon">Bajón</a></li>
+              <li class="menu-i"><a href="https://hulawings.com/donde">¿Dónde?</a></li>
             </ul>
           <div class="phone-menu">
             <svg class="burger" xmlns="http://www.w3.org/2000/svg" width="33.712" height="19.618" viewBox="0 0 33.712 19.618">
@@ -71,5 +71,5 @@
       </nav>
     </header>
     <div class="sound-float">
-      <a onClick="togglePlay()"><lottie-player id="sound_equalizer" src="assets/sound.json" background="transparent" speed="1" loop autoplay></lottie-player></a>
+      <a onClick="togglePlay()"><lottie-player id="sound_equalizer" src="https://hulawings.com/assets/sound.json" background="transparent" speed="1" loop autoplay></lottie-player></a>
     </div>

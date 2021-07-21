@@ -14,7 +14,7 @@
       </div>
     </div>
     <div class="lottie-down">
-      <lottie-player id="scroll_down" src="assets/scroll_down.json" background="transparent" speed="1" loop autoplay></lottie-player>
+      <lottie-player id="scroll_down" src="https://hulawings.com/assets/scroll_down.json" background="transparent" speed="1" loop autoplay></lottie-player>
     </div>
   </section>
   <section id="drinks-shop" class="shop-body">
@@ -29,7 +29,7 @@
             <span><?php echo $drink['desc_corta'] ?></span>
           </div>
           <a href="drink?id=<?php echo $drink['id']; ?>"
-            ><img src="bebidas/<?php echo $drink['img'] ?>" alt="<?php echo $drink['nombre'] ?>"/></a>
+            ><img src="https://hulawings.com/bebidas/<?php echo $drink['img'] ?>" alt="<?php echo $drink['nombre'] ?>"/></a>
           <a id="btn-mov-link" href="drink?id=<?php echo $drink['id']; ?>"><button class="card-drinks-btn">Ver Más</button></a>
         </div>
         <?php

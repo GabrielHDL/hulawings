@@ -1,7 +1,7 @@
         <footer class="footer">
             <div class="mw wrap direction-footer">
                 <div class="logo-container-footer">
-                    <img src="img/logo_footer.svg" alt="">
+                    <img src="https://hulawings.com/img/logo_footer.svg" alt="">
                 </div>
                 <div class="links-footer">
                     <ul>
@@ -23,9 +23,9 @@
                 </div>
             </div>
         </footer>
-        <audio loop id="myAudio" src="miscelaneous/audio/liqwyd-birthday.mp3" preload="auto"></audio>
-    <script src="js/scripts.min.js"></script>
-    <script src="js/jquery-3.6.0.min.js"></script>
+        <audio loop id="myAudio" src="https://hulawings.com/miscelaneous/audio/liqwyd-birthday.mp3" preload="auto"></audio>
+    <script src="https://hulawings.com/js/scripts.min.js"></script>
+    <script src="https://hulawings.com/js/jquery-3.6.0.min.js"></script>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     </body>
 </html>
