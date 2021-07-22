@@ -6,8 +6,8 @@ $donde_title = "¿Dónde?";
 $bajon_title = "Bajón";
 $product_title = "Drink";
 $servidor = "localhost";
-$basedatos = "hula_wings";
-$usuario = "root";
-$pass = "";
+$basedatos = "hulabar_hula_wings";
+$usuario = "hulabar_hulabar";
+$pass = "Tlsf20@sb%";
 
 ?>

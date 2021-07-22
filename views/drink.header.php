@@ -15,7 +15,8 @@
       })(window,document,'script','dataLayer','GTM-MW6SMNN');
     </script>
     <!-- End Google Tag Manager -->
-    <link rel="canonical" href="<?php echo $canonical .'?id=' . $drink['id'] ?>" />
+    <link rel="canonical" href="<?php echo $canonical .'/' . $drink['id'] ?>" />
+    <meta name="facebook-domain-verification" content="jeqxej67qhkuwcp2o7zfvy3qc04686" />
     <meta property="og:title" content="<?php echo $drink['nombre'] . ' | ' . $title ?>" />
     <meta property="og:type" content="website" />
     <meta property="og:description" content="<?php echo $drink['desc_corta'] . ' | ' . $description ?>" />
@@ -24,7 +25,7 @@
     <meta property="og:image" content="https://hulawings.com/bebidas/<?php echo $drink['img'] ?>" />
     <meta propety="og:image:alt" content="HULA Wings Open Graph Image" />
     <meta property="og:locale" content="es_MX">
-    <meta property="fb:app_id" content="214059593948015">
+    <meta property="fb:app_id" content="385619182950757">
     <meta name="twitter:title" content="<?php echo $drink['nombre'] . ' | ' . $title ?>">
     <meta name="twitter:description" content="<?php echo $drink['desc_corta'] . ' | ' . $description ?>">
     <meta name="twitter:image" content="https://hulawings.com/bebidas/<?php echo $drink['img'] ?>">

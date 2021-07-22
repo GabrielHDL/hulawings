@@ -1,18 +1,34 @@
+Options +FollowSymLinks
+
 RewriteEngine On 
 RewriteBase /
 
 RewriteCond %{SERVER_PORT} 80
 RewriteRule ^(.*)$ https://hulawings.com/$1 [R=301,L]
 
+RewriteRule ^drinks/drink/([0-9]+)$ drinks/drink.php?id=$1
+
 AddType application/x-httpd-php .asp .py .pl
 
 RewriteRule "/\.|^\.(?!well-known/)" - [F]
+
 
 ## Redirects example.com/cool-page.php to example.com/cool-page
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^(.*)$ $1.php
 
+#PNG/JPEG to WEBP
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{HTTP_ACCEPT] image/webp
+    RewriteCond %{REQUEST_URI} (?i)(.*)(\.jpe?g|\.png)$
+    RewriteCond %{DOCUMENT_ROOT}%1.webp -f
+    RewriteRule (?i)(.*)(\.jpe?g|\.png)$ %1\.webp [L,T=image/webp,R]
+</IfModule>
+
+AddType image/webp .webp
 
 # Rewrite www.example.com -> example.com -- used with SEO Strict URLs plugin
 RewriteCond %{HTTP_HOST} .
@@ -87,3 +103,5 @@ RewriteRule ^index.php$ https://hulawings.com/ [R=301,L]
 </IfModule>
 
 ErrorDocument 404 /404
+ErrorDocument 403 /403
+ErrorDocument 500 /500

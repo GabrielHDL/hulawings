@@ -16,8 +16,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://hulawings.com/css/styles.min.css" />
     <link rel="stylesheet" href="https://hulawings.com/css/queries.min.css" />
-    <link rel="shortcut icon" href="assets/favicon.png" />
-    <title>Ooops... Te has perdido | HULA Wings&reg;</title>
+    <link rel="shortcut icon" href="https://hulawings.com/assets/favicon.png" />
+    <title>Ooops... ¿A donde vas? | HULA Wings&reg;</title>
 </head>
 <body>
     <!-- Google Tag Manager (noscript) -->
@@ -29,7 +29,7 @@
     <!-- End Google Tag Manager (noscript) -->
     <div class="bck404">
         <img id="logo-404" src="https://hulawings.com/img/logo_hula.svg" alt="HULA Wings">
-        <h1>Error<br><span>404</span></h1>
+        <h1>Error<br><span>403</span></h1>
         <img class="cerveza404" src="https://hulawings.com/bebidas/cerveza.png" alt="">
         <a href="/"><button id="btn-404" class="drinks-btn">Volver a Inicio</button></a>
     </div>

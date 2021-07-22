@@ -6,10 +6,10 @@
            <h2>Oye!</h2>
         </div>
         <div class="lottie-location">
-         <lottie-player id="location" src="assets/location.json" background="transparent" speed="1" loop autoplay></lottie-player>
+         <a id="donde-lottie-a" href="#loc-find"><lottie-player id="location" src="assets/location.json" background="transparent" speed="1" loop autoplay></lottie-player></a>
        </div>
     </div>
-    <section class="find-us">
+    <section id="loc-find" class="find-us">
         <div class="mw-gen us-res">
            <div class="find-us-text">
                <h3>Dirección:</h3>

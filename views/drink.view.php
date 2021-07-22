@@ -9,7 +9,7 @@ $V = new Votacion();
             <img src="https://hulawings.com/bebidas/<?php echo $drink['img']; ?>" alt="<?php echo $drink['nombre'] ?>" title="<?php echo $drink['nombre'] ?>">
         </div>
         <div class="product-desc">
-            <h2>¿Que es?</h2>
+            <h2>¿Qué es?</h2>
             <p><?php echo $drink['descripcion'] ?></p>
             <a href="https://hulawings.com/drinks"><button class="drinks-btn">Volver a Drinks</button></a>
         </div>

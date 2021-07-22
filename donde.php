@@ -1,4 +1,5 @@
 <?php
+
 include_once 'admin/config_files/config.php';
 
 $title = "$donde_title | $site_title";

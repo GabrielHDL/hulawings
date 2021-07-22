@@ -1,4 +1,5 @@
 <?php
+
 include './votaciones.php';
 include_once '../admin/config_files/config.php';
 include_once '../functions.php';
@@ -8,10 +9,8 @@ $description = "Los mejores drinks en HULA Wings.";
 $og_name = "HULA Wings&reg;";
 $canonical = "https://hulawings.com/drinks/drink";
 
-$conexion2 = conexion2('hula_wings', 'root', '');
-if (!$conexion2) {
-    die();
-}
+$objeto = new Conexion();
+$conexion = $objeto->Conectar();
 
 $id = isset($_GET['id']) ? (int)$_GET['id'] : false;
 
@@ -19,7 +18,7 @@ if (!$id) {
     header('Location: index');
 }
 
-$statement = $conexion2->prepare("SELECT * FROM drinks WHERE id = :id");
+$statement = $conexion->prepare("SELECT * FROM drinks WHERE id = :id");
 $statement->execute(array(':id' => $id));
 
 $drink = $statement->fetch();
