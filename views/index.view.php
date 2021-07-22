@@ -17,7 +17,10 @@
       <div class="mw direction">
         <a href="drinks/drink/1"><button class="drinks-btn res">Ver Más</button></a>
         <div class="imagen">
-          <img src="bebidas/mojito.png" alt="Mojito" title="Mojito" />
+          <picture>
+            <source srcset="bebidas/mojito.webp" type="image/webp" />
+            <img src="bebidas/mojito.png" alt="Mojito" title="Mojito" />
+          </picture>
         </div>
         <div class="contenedor-texto">
           <h3>Mojito</h3>
@@ -32,7 +35,10 @@
       <div class="mw direction-reverse">
         <a href="drinks/drink/2"><button class="drinks-btn res">Ver Más</button></a>
         <div class="imagen">
-          <img src="bebidas/pngegg.png" alt="Piña Colada" title="Piña Colada" />
+        <picture>
+            <source srcset="bebidas/pngegg.webp" type="image/webp" />
+            <img src="bebidas/pngegg.png" alt="Piña Colada" title="Piña Colada" />
+          </picture>
         </div>
         <div class="contenedor-texto">
           <h3>Piña Colada</h3>
@@ -47,7 +53,10 @@
       <div class="mw direction">
         <a href="drinks/drink/16"><button class="drinks-btn res">Ver Más</button></a>
         <div class="imagen">
-          <img src="bebidas/flame_shots.png" alt="Shots" title="Shots" />
+        <picture>
+            <source srcset="bebidas/flame_shots.webp" type="image/webp" />
+            <img src="bebidas/flame_shots.png" alt="Shots" title="Shots" />
+          </picture>
         </div>
         <div class="contenedor-texto">
           <h3>Shots</h3>

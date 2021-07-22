@@ -29,7 +29,10 @@
             <span><?php echo $drink['desc_corta'] ?></span>
           </div>
           <a href="drink/<?php echo $drink['id']; ?>"
-            ><img src="https://hulawings.com/bebidas/<?php echo $drink['img'] ?>" alt="<?php echo $drink['nombre'] ?>"/></a>
+            ><picture>
+            <source srcset="https://hulawings.com/bebidas/<?php echo $drink['img_webp'] ?>" type="image/webp">
+            <img src="https://hulawings.com/bebidas/<?php echo $drink['img'] ?>" alt="<?php echo $drink['nombre'] ?>" title="<?php echo $drink['nombre'] ?>" />
+          </picture></a>
           <a id="btn-mov-link" href="drink/<?php echo $drink['id']; ?>"><button class="card-drinks-btn">Ver Más</button></a>
         </div>
         <?php
