@@ -30,8 +30,8 @@
           </div>
           <a href="drink/<?php echo $drink['id']; ?>"
             ><picture>
-            <source srcset="https://hulawings.com/bebidas/<?php echo $drink['img_webp'] ?>" type="image/webp">
-            <img src="https://hulawings.com/bebidas/<?php echo $drink['img'] ?>" alt="<?php echo $drink['nombre'] ?>" title="<?php echo $drink['nombre'] ?>" />
+            <source srcset="<?php echo URL ?>bebidas/<?php echo $drink['img_webp'] ?>" type="image/webp">
+            <img src="<?php echo URL ?>bebidas/<?php echo $drink['img'] ?>" alt="<?php echo $drink['nombre'] ?>" title="<?php echo $drink['nombre'] ?>" />
           </picture></a>
           <a id="btn-mov-link" href="drink/<?php echo $drink['id']; ?>"><button class="card-drinks-btn">Ver Drink</button></a>
         </div>

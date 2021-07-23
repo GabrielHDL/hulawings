@@ -3,10 +3,10 @@
 include_once '../admin/config_files/config.php';
 
 $title = "$drinks_title | $site_title";
-$description = "Los mejores tragos los encuentras en HULA Wings 🍹";
+$description = "Los mejores tragos los encuentras en HULA Wings" . ' | ' . $site_title;
 $og_name = "HULA Wings&reg;";
 $og_img = "hula_drinks_og_img.jpg";
-$canonical = "https://hulawings.com/drinks/";
+$canonical = URL . 'drinks/';
 
 include_once '../functions.php';
 

@@ -20,22 +20,22 @@
     <meta property="og:title" content="<?php echo $drink['nombre'] . ' | ' . $title ?>" />
     <meta property="og:type" content="website" />
     <meta property="og:description" content="<?php echo $drink['desc_corta'] . ' | ' . $description ?>" />
-    <meta property="og:url" content="https://hulawings.com/" />
+    <meta property="og:url" content="<?php echo URL ?>" />
     <meta property="og:site_name" content="<?php echo $og_name ?>" />
-    <meta property="og:image" content="https://hulawings.com/bebidas/<?php echo $drink['img'] ?>" />
+    <meta property="og:image" content="<?php echo URL ?>bebidas/<?php echo $drink['img'] ?>" />
     <meta propety="og:image:alt" content="HULA Wings Open Graph Image" />
     <meta property="og:locale" content="es_MX">
     <meta property="fb:app_id" content="385619182950757">
     <meta name="twitter:title" content="<?php echo $drink['nombre'] . ' | ' . $title ?>">
     <meta name="twitter:description" content="<?php echo $drink['desc_corta'] . ' | ' . $description ?>">
-    <meta name="twitter:image" content="https://hulawings.com/bebidas/<?php echo $drink['img'] ?>">
+    <meta name="twitter:image" content="<?php echo URL ?>bebidas/<?php echo $drink['img'] ?>">
     <meta name="twitter:site" content="@HulaWings">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:creator" content="@HulaWings">
     <meta name="description" content="<?php echo $drink['desc_corta'] . ' | ' . $description ?>">
-    <link rel="stylesheet" href="https://hulawings.com/css/styles.min.css" />
-    <link rel="stylesheet" href="https://hulawings.com/css/queries.min.css" />
-    <link rel="shortcut icon" href="https://hulawings.com/assets/favicon.png" />
+    <link rel="stylesheet" href="<?php echo URL ?>css/styles.min.css" />
+    <link rel="stylesheet" href="<?php echo URL ?>css/queries.min.css" />
+    <link rel="shortcut icon" href="<?php echo URL ?>assets/favicon.png" />
     <script src="https://kit.fontawesome.com/bf31e6c9ae.js" crossorigin="anonymous"></script>
     <title><?php echo $drink['nombre'] . ' | ' . $title ?></title>
   </head>
@@ -53,13 +53,13 @@
       <nav>
         <div class="mw">
           <div class="logo-container">
-            <a id="logo" href="/"><img class="logo" src="https://hulawings.com/img/logo_hula.svg" alt="Logo Hula" title="Hula Wings" /></a>
+            <a id="logo" href="/"><img class="logo" src="<?php echo URL ?>img/logo_hula.svg" alt="Logo Hula" title="Hula Wings" /></a>
           </div>
             <ul class="menu-desk">
-              <li class="menu-i"><a href="https://hulawings.com">Inicio</a></li>
-              <li class="menu-i"><a href="https://hulawings.com/drinks/">Drinks</a></li>
-              <li class="menu-i"><a href="https://hulawings.com/snacks/">Snacks</a></li>
-              <li class="menu-i"><a href="https://hulawings.com/donde">¿Dónde?</a></li>
+              <li class="menu-i"><a href="<?php echo URL ?>">Inicio</a></li>
+              <li class="menu-i"><a href="<?php echo URL ?>drinks/">Drinks</a></li>
+              <li class="menu-i"><a href="<?php echo URL ?>snacks/">Snacks</a></li>
+              <li class="menu-i"><a href="<?php echo URL ?>donde">¿Dónde?</a></li>
             </ul>
           <div class="phone-menu">
             <svg class="burger" xmlns="http://www.w3.org/2000/svg" width="33.712" height="19.618" viewBox="0 0 33.712 19.618">

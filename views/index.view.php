@@ -15,17 +15,17 @@
       <h1 class="ribbon">Especialidad</h1>
       <h1 class="ribbon-h">de la casa</h1>
       <div class="mw direction">
-        <a href="drinks/drink/1"><button class="drinks-btn res">Ver Drink</button></a>
+        <a href="<?php echo URL ?>drinks/drink/1"><button class="drinks-btn res">Ver Drink</button></a>
         <div class="imagen">
           <picture>
-            <source srcset="bebidas/mojito.webp" type="image/webp" />
-            <img src="bebidas/mojito.png" alt="Mojito" title="Mojito" />
+            <source srcset="<?php echo URL ?>bebidas/mojito.webp" type="image/webp" />
+            <img src="<?php echo URL ?>bebidas/mojito.png" alt="Mojito" title="Mojito" />
           </picture>
         </div>
         <div class="contenedor-texto">
           <h3>Mojito</h3>
           <p>El cubano favorito.</p>
-          <a href="drinks/drink/1"><button class="drinks-btn res-desk">Ver Drink</button></a>
+          <a href="<?php echo URL ?>drinks/drink/1"><button class="drinks-btn res-desk">Ver Drink</button></a>
         </div>
       </div>
     </section>
@@ -33,17 +33,17 @@
       <h1 class="ribbon-r">Puro sabor</h1>
       <h1 class="ribbon-h-r">Caribeño</h1>
       <div class="mw direction-reverse">
-        <a href="drinks/drink/2"><button class="drinks-btn res">Ver Drink</button></a>
+        <a href="<?php echo URL ?>drinks/drink/2"><button class="drinks-btn res">Ver Drink</button></a>
         <div class="imagen">
         <picture>
-            <source srcset="bebidas/pngegg.webp" type="image/webp" />
-            <img src="bebidas/pngegg.png" alt="Piña Colada" title="Piña Colada" />
+            <source srcset="<?php echo URL ?>bebidas/pngegg.webp" type="image/webp" />
+            <img src="<?php echo URL ?>bebidas/pngegg.png" alt="Piña Colada" title="Piña Colada" />
           </picture>
         </div>
         <div class="contenedor-texto">
           <h3>Piña Colada</h3>
           <p>La relación más trend entre la piña y el coco.</p>
-          <a href="drinks/drink/2"><button class="drinks-btn res-desk">Ver Drink</button></a>
+          <a href="<?php echo URL ?>drinks/drink/2"><button class="drinks-btn res-desk">Ver Drink</button></a>
         </div>
       </div>
     </section>
@@ -51,17 +51,17 @@
       <h1 class="ribbon">Una entrada</h1>
       <h1 class="ribbon-h">Diferente</h1>
       <div class="mw direction">
-        <a href="drinks/drink/16"><button class="drinks-btn res">Ver Drink</button></a>
+        <a href="<?php echo URL ?>drinks/drink/16"><button class="drinks-btn res">Ver Drink</button></a>
         <div class="imagen">
         <picture>
-            <source srcset="bebidas/flame_shots.webp" type="image/webp" />
-            <img src="bebidas/flame_shots.png" alt="Shots" title="Shots" />
+            <source srcset="<?php echo URL ?>bebidas/flame_shots.webp" type="image/webp" />
+            <img src="<?php echo URL ?>bebidas/flame_shots.png" alt="Shots" title="Shots" />
           </picture>
         </div>
         <div class="contenedor-texto">
           <h3>Shots</h3>
           <p>Una exquisita variedad de shots.</p>
-          <a href="drinks/drink/16"><button class="drinks-btn res-desk">Ver Drink</button></a>
+          <a href="<?php echo URL ?>drinks/drink/16"><button class="drinks-btn res-desk">Ver Drink</button></a>
         </div>
       </div>
     </section>

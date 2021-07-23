@@ -1,23 +1,120 @@
-<?xml version="1.0" encoding="utf-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-  <url>
-    <loc>https://hulawings.com</loc>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://hulawings.com/bajon</loc>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://hulawings.com/donde</loc>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://hulawings.com/drinks/</loc>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://hulawings.com/</loc>
+  <lastmod>2021-07-23T17:50:48+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://hulawings.com/drinks/</loc>
+  <lastmod>2021-07-23T17:50:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hulawings.com/snacks/</loc>
+  <lastmod>2021-07-23T17:50:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hulawings.com/donde</loc>
+  <lastmod>2021-07-23T17:50:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hulawings.com/drinks/drink/1</loc>
+  <lastmod>2021-07-23T17:50:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hulawings.com/drinks/drink/2</loc>
+  <lastmod>2021-07-23T17:50:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hulawings.com/drinks/drink/16</loc>
+  <lastmod>2021-07-23T17:50:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hulawings.com/drinks/drink/9</loc>
+  <lastmod>2021-07-23T17:50:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hulawings.com/drinks/drink/7</loc>
+  <lastmod>2021-07-23T17:50:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hulawings.com/drinks/drink/4</loc>
+  <lastmod>2021-07-23T17:50:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hulawings.com/drinks/drink/13</loc>
+  <lastmod>2021-07-23T17:50:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hulawings.com/drinks/drink/6</loc>
+  <lastmod>2021-07-23T17:50:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hulawings.com/drinks/drink/12</loc>
+  <lastmod>2021-07-23T17:50:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hulawings.com/drinks/drink/14</loc>
+  <lastmod>2021-07-23T17:50:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hulawings.com/drinks/drink/10</loc>
+  <lastmod>2021-07-23T17:50:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hulawings.com/drinks/drink/11</loc>
+  <lastmod>2021-07-23T17:50:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hulawings.com/drinks/drink/3</loc>
+  <lastmod>2021-07-23T17:50:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hulawings.com/drinks/drink/5</loc>
+  <lastmod>2021-07-23T17:50:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hulawings.com/snacks/snack/1</loc>
+  <lastmod>2021-07-23T17:50:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hulawings.com/snacks/snack/2</loc>
+  <lastmod>2021-07-23T17:50:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hulawings.com/snacks/snack/3</loc>
+  <lastmod>2021-07-23T17:50:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hulawings.com/snacks/snack/5</loc>
+  <lastmod>2021-07-23T17:50:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
 </urlset>

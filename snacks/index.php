@@ -3,10 +3,10 @@
 include_once '../admin/config_files/config.php';
 
 $title = "$bajon_title | $site_title";
-$description = "¿Segur@ que has probado las mejores alitas? 🍗";
+$description = "¿Segur@ que has probado las mejores alitas?". ' | ' . $site_title;
 $og_name = "HULA Wings&reg;";
 $og_img = "hula_bajon_og_img.jpg";
-$canonical = "https://hulawings.com/snacks/";
+$canonical = URL . 'snacks/';
 
 include_once '../functions.php';
 

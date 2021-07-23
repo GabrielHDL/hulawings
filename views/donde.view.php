@@ -6,7 +6,7 @@
            <h2>Oye!</h2>
         </div>
         <div class="lottie-location">
-         <a id="donde-lottie-a" href="#loc-find"><lottie-player id="location" src="assets/location.json" background="transparent" speed="1" loop autoplay></lottie-player></a>
+         <a id="donde-lottie-a" href="#loc-find"><lottie-player id="location" src="<?php echo URL ?>assets/location.json" background="transparent" speed="1" loop autoplay></lottie-player></a>
        </div>
     </div>
     <section id="loc-find" class="find-us">
