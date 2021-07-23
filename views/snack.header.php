@@ -13,29 +13,29 @@
       })(window,document,'script','dataLayer','GTM-MW6SMNN');
     </script>
     <!-- End Google Tag Manager -->
-    <link rel="canonical" href="<?php echo $canonical ?>" />
+    <link rel="canonical" href="<?php echo $canonical .'/' . $snack['id'] ?>" />
     <meta name="facebook-domain-verification" content="jeqxej67qhkuwcp2o7zfvy3qc04686" />
-    <meta property="og:title" content="<?php echo $title ?>" />
+    <meta property="og:title" content="<?php echo $snack['nombre'] . ' | ' . $title ?>" />
     <meta property="og:type" content="website" />
-    <meta property="og:description" content="<?php echo $description ?>" />
+    <meta property="og:description" content="<?php echo $snack['descripcion'] . ' | ' . $description ?>" />
     <meta property="og:url" content="https://hulawings.com/" />
     <meta property="og:site_name" content="<?php echo $og_name ?>" />
-    <meta property="og:image" content="https://hulawings.com/miscelaneous/og/img/<?php echo $og_img ?>" />
+    <meta property="og:image" content="https://hulawings.com/bajones/<?php echo $snack['img'] ?>" />
     <meta propety="og:image:alt" content="HULA Wings Open Graph Image" />
     <meta property="og:locale" content="es_MX">
     <meta property="fb:app_id" content="385619182950757">
-    <meta name="twitter:title" content="<?php echo $title ?>">
-    <meta name="twitter:description" content="<?php echo $description ?>">
-    <meta name="twitter:image" content="https://hulawings.com/miscelanous/og/img/<?php echo $og_img ?>">
+    <meta name="twitter:title" content="<?php echo $snack['nombre'] . ' | ' . $title ?>">
+    <meta name="twitter:description" content="<?php echo $snack['descripcion'] . ' | ' . $description ?>">
+    <meta name="twitter:image" content="https://hulawings.com/bajones/<?php echo $snack['img'] ?>">
     <meta name="twitter:site" content="@HulaWings">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:creator" content="@HulaWings">
-    <meta name="description" content="<?php echo $description ?>">
+    <meta name="description" content="<?php echo $snack['descripcion'] . ' | ' . $description ?>">
     <link rel="stylesheet" href="https://hulawings.com/css/styles.min.css" />
     <link rel="stylesheet" href="https://hulawings.com/css/queries.min.css" />
     <link rel="shortcut icon" href="https://hulawings.com/assets/favicon.png" />
     <script src="https://kit.fontawesome.com/bf31e6c9ae.js" crossorigin="anonymous"></script>
-    <title><?php echo $title ?></title>
+    <title><?php echo $snack['nombre'] . ' | ' . $title ?></title>
   </head>
   <body>
     <!-- Google Tag Manager (noscript) -->
@@ -71,6 +71,3 @@
         </div>
       </nav>
     </header>
-    <div class="sound-float">
-      <a onClick="togglePlay()"><lottie-player id="sound_equalizer" src="https://hulawings.com/assets/sound.json" background="transparent" speed="1" loop autoplay></lottie-player></a>
-    </div>

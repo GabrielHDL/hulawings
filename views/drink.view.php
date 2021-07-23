@@ -1,7 +1,7 @@
 <?php
 $V = new Votacion();
 ?>
-<div class="product-body">
+<div id ="product-drinks-bg" class="product-body">
     <div class="mw-gen-product product-grid">
         <div class="product-view">
             <h1><?php echo $drink['nombre'] ?></h1>

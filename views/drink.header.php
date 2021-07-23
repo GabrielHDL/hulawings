@@ -57,8 +57,8 @@
           </div>
             <ul class="menu-desk">
               <li class="menu-i"><a href="https://hulawings.com">Inicio</a></li>
-              <li class="menu-i"><a href="https://hulawings.com/drinks">Drinks</a></li>
-              <li class="menu-i"><a href="https://hulawings.com/bajon">Bajón</a></li>
+              <li class="menu-i"><a href="https://hulawings.com/drinks/">Drinks</a></li>
+              <li class="menu-i"><a href="https://hulawings.com/snacks/">Snacks</a></li>
               <li class="menu-i"><a href="https://hulawings.com/donde">¿Dónde?</a></li>
             </ul>
           <div class="phone-menu">

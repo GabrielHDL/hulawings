@@ -24,9 +24,9 @@
                 <span><?php echo $bajon['cantidad'] ?></span>
                 <span>$<?php echo $bajon['precio'] ?></span>
               </div>
-              <a href="#"
-                ><img src="bajones/<?php echo $bajon['img'] ?>" alt="<?php echo $bajon['nombre'] ?>"/></a>
-              <a id="btn-mov-link" href="#"><button class="card-drinks-btn">Ver Más</button></a>
+              <a href="https://hulawings.com/snacks/snack/<?php echo $bajon['id'] ?>"
+                ><img src="https://hulawings.com/bajones/<?php echo $bajon['img'] ?>" alt="<?php echo $bajon['nombre'] ?>"/></a>
+              <a id="btn-mov-link" href="https://hulawings.com/snacks/snack/<?php echo $bajon['id'] ?>"><button class="card-drinks-btn">Ver Snack</button></a>
             </div>
             <?php
                   }

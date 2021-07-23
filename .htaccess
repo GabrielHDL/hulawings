@@ -1,3 +1,5 @@
+
+RewriteOptions inherit
 Options +FollowSymLinks
 
 RewriteEngine On 
@@ -7,6 +9,7 @@ RewriteCond %{SERVER_PORT} 80
 RewriteRule ^(.*)$ https://hulawings.com/$1 [R=301,L]
 
 RewriteRule ^drinks/drink/([0-9]+)$ drinks/drink.php?id=$1
+RewriteRule ^snacks/snack/([0-9]+)$ snacks/snack.php?id=$1
 
 AddType application/x-httpd-php .asp .py .pl
 
@@ -105,3 +108,5 @@ RewriteRule ^index.php$ https://hulawings.com/ [R=301,L]
 ErrorDocument 404 /404
 ErrorDocument 403 /403
 ErrorDocument 500 /500
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^bajon$ "https\:\/\/hulawings\.com\/snacks\/" [R=301,L]

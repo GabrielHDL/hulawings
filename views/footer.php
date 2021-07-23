@@ -5,9 +5,9 @@
                 </div>
                 <div class="links-footer">
                     <ul>
-                        <li><a href="https://hulawings.com/">Inicio</a></li>
-                        <li><a href="https://hulawings.com/drinks">Drinks</a></li>
-                        <li><a href="https://hulawings.com/bajon">Bajón</a></li>
+                        <li><a href="https://hulawings.com">Inicio</a></li>
+                        <li><a href="https://hulawings.com/drinks/">Drinks</a></li>
+                        <li><a href="https://hulawings.com/snacks/">Snacks</a></li>
                         <li><a href="https://hulawings.com/donde">¿Dónde?</a></li>
                     </ul>
                 </div>
@@ -23,7 +23,7 @@
                 </div>
             </div>
         </footer>
-        <audio loop id="myAudio" src="https://hulawings.com/miscelaneous/audio/liqwyd-birthday.mp3" preload="auto"></audio>
+        <audio loop id="myAudio" title="HULA Wings&reg;" src="https://hulawings.com/miscelaneous/audio/liqwyd-birthday.mp3" preload="auto"></audio>
     <script src="https://hulawings.com/js/scripts.min.js"></script>
     <script src="https://hulawings.com/js/jquery-3.6.0.min.js"></script>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>

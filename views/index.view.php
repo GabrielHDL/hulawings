@@ -15,7 +15,7 @@
       <h1 class="ribbon">Especialidad</h1>
       <h1 class="ribbon-h">de la casa</h1>
       <div class="mw direction">
-        <a href="drinks/drink/1"><button class="drinks-btn res">Ver Más</button></a>
+        <a href="drinks/drink/1"><button class="drinks-btn res">Ver Drink</button></a>
         <div class="imagen">
           <picture>
             <source srcset="bebidas/mojito.webp" type="image/webp" />
@@ -25,7 +25,7 @@
         <div class="contenedor-texto">
           <h3>Mojito</h3>
           <p>El cubano favorito.</p>
-          <a href="drinks/drink/1"><button class="drinks-btn res-desk">Ver Más</button></a>
+          <a href="drinks/drink/1"><button class="drinks-btn res-desk">Ver Drink</button></a>
         </div>
       </div>
     </section>
@@ -33,7 +33,7 @@
       <h1 class="ribbon-r">Puro sabor</h1>
       <h1 class="ribbon-h-r">Caribeño</h1>
       <div class="mw direction-reverse">
-        <a href="drinks/drink/2"><button class="drinks-btn res">Ver Más</button></a>
+        <a href="drinks/drink/2"><button class="drinks-btn res">Ver Drink</button></a>
         <div class="imagen">
         <picture>
             <source srcset="bebidas/pngegg.webp" type="image/webp" />
@@ -43,7 +43,7 @@
         <div class="contenedor-texto">
           <h3>Piña Colada</h3>
           <p>La relación más trend entre la piña y el coco.</p>
-          <a href="drinks/drink/2"><button class="drinks-btn res-desk">Ver Más</button></a>
+          <a href="drinks/drink/2"><button class="drinks-btn res-desk">Ver Drink</button></a>
         </div>
       </div>
     </section>
@@ -51,7 +51,7 @@
       <h1 class="ribbon">Una entrada</h1>
       <h1 class="ribbon-h">Diferente</h1>
       <div class="mw direction">
-        <a href="drinks/drink/16"><button class="drinks-btn res">Ver Más</button></a>
+        <a href="drinks/drink/16"><button class="drinks-btn res">Ver Drink</button></a>
         <div class="imagen">
         <picture>
             <source srcset="bebidas/flame_shots.webp" type="image/webp" />
@@ -61,7 +61,7 @@
         <div class="contenedor-texto">
           <h3>Shots</h3>
           <p>Una exquisita variedad de shots.</p>
-          <a href="drinks/drink/16"><button class="drinks-btn res-desk">Ver Más</button></a>
+          <a href="drinks/drink/16"><button class="drinks-btn res-desk">Ver Drink</button></a>
         </div>
       </div>
     </section>
