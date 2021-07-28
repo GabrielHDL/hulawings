@@ -27,6 +27,11 @@
     <script src="<?php echo URL ?>js/scripts.min.js"></script>
     <script src="<?php echo URL ?>js/jquery-3.6.0.min.js"></script>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <!-- Swiper JS -->
+    <script src="<?php echo URL ?>js/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script src="<?php echo URL ?>js/slider.js"></script>
     <script>
   window.fbAsyncInit = function() {
     FB.init({

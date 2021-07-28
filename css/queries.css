@@ -317,6 +317,24 @@
         width: 100%;
         height: 50%
     }
+
+    #jueves-slide {
+        background: #725644 url(../img/mov_jueves.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #viernes-slide {
+        background: #725644 url(../img/mov_norteno.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    #sabado-slide {
+        background: #725644 url(../img/mov_sat_hero.jpg);
+        background-position: center;
+        background-size: cover;
+    }
 }
 
 @media only screen and (max-width:375px) {

@@ -1,15 +1,17 @@
-    <div id="inicio" class="hero">
-      <div class="text-hero">
-      </div>
-      <div class="hero-card">
-        <div class="card-body">
-          <h3>Nuestra carta completa<br />de Drinks</h3>
-          <a href="drinks"><button class="drinks-btn">Ver Más</button></a>
+    <!-- Swiper -->
+    <div class="swiper-container mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" id="jueves-slide">
+          <div class="hero-icon">
+          </div>
         </div>
+        <div class="swiper-slide" id="viernes-slide">
+          Viernes de<br />Norteño Banda
+        </div>
+        <div class="swiper-slide" id="sabado-slide">Sabado de<br />3X100</div>
       </div>
-      <div class="hero-icon">
-        <a href="#mojito"><i class="fas fa-chevron-circle-down"></i></a>
-      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
     </div>
     <section class="contenedor-drinks" id="mojito">
       <h1 class="ribbon">Especialidad</h1>

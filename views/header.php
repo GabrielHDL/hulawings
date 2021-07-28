@@ -33,6 +33,7 @@
     <meta name="description" content="<?php echo $description ?>">
     <link rel="stylesheet" href="<?php echo URL ?>css/styles.min.css" />
     <link rel="stylesheet" href="<?php echo URL ?>css/queries.min.css" />
+    <link rel="stylesheet" href="<?php echo URL ?>css/swiper-bundle.min.css" />
     <link rel="shortcut icon" href="<?php echo URL ?>assets/favicon.png" />
     <script src="https://kit.fontawesome.com/bf31e6c9ae.js" crossorigin="anonymous"></script>
     <title><?php echo $title ?></title>
