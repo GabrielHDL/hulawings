@@ -1,0 +1,100 @@
+body {
+    width: 100%;
+    background: #000;
+    font-family: Poppins, sans-serif;
+    color: #FFF;
+    background: url('../img/neon_bck.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    width: 100%;
+}
+
+.menu-heading .card h1 {
+    font-size: 300%;
+    text-shadow: 0 0 10px #000;
+}
+
+.menu-heading .card {
+    background: rgba( 255, 255, 255, 0.25 );
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    border-radius: 0 0 40px 40px;
+    border-top: 0;
+    border-bottom: solid 2px rgba( 255, 255, 255, 0.18 );
+    border-right: solid 2px rgba( 255, 255, 255, 0.18 );
+    border-left: solid 2px rgba( 255, 255, 255, 0.18 );
+    box-shadow: 0 0px 20px rgba( 255, 255, 255, 0.7 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+}
+
+.menu-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+.btn-menu {
+    padding: 20px 40px;
+    border-radius: 15px;
+    margin: 10px;
+    cursor: pointer;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 150%;
+    color: #fff;
+}
+
+.btn-menu:hover {
+    text-shadow: 0 0 10px #000;
+    transform: translateY(-10px);
+}
+
+#drinks {
+    background: rgba( 74, 144, 226, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    transition: all linear 0.3s;
+}
+
+#drinks:hover {
+    background: rgba( 74, 144, 226, 0.70 );
+    box-shadow: 0 0 15px rgba( 74, 144, 226, 1 );
+}
+
+#snacks {
+    background: rgba( 253, 58, 105, 0.20 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    transition: all linear 0.3s;
+}
+
+#snacks:hover {
+    box-shadow: 0 0 15px rgba( 253, 58, 105, 1 );
+    background: rgba( 253, 58, 105, 0.70 );
+}
